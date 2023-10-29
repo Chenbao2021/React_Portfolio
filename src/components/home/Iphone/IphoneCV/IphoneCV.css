@@ -1,0 +1,113 @@
+.iphone-cv-box {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+
+    background-color: white;
+
+
+    transition: all 0.5s;
+    
+    animation: downToTop forwards 0.5s;
+}
+@keyframes downToTop {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.iphone-cv-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iphone-cv-informations {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.iphone-cv-head {
+    width: 100%;
+    height: calc(250px + 5vmin);
+}
+.iphone-cv-head-avatar {
+    height: 70%;
+    border-radius: 10%;
+}
+.iphone-cv-personal-informations {
+    height: 25%;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+.iphone-cv-personal-informations-title {
+    font-size: 3vh;
+}
+.iphone-cv-personal-informations-additional {
+    font-size: 2vh;
+    color: #83829A;
+}
+.iphone-cv-body {
+    height: calc(100% - 250px - 5vmin);
+}
+
+.iphone-cv-body-bar {
+    height: calc(60px + 2vmin);
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.iphone-cv-body-bar-button-box {
+    cursor: pointer;
+
+    height: 100%;
+    width: 33%;
+
+
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #83829A;
+
+    font-size: calc(10px + 1vmin);
+}
+
+.ipone-cv-body-selected-information {
+    height: calc(100% - 120px - 2vmin - 3vh - 30px);
+    color: black;
+    font-size: calc(10px + 1.5vmin);
+    overflow: scroll;
+}
+
+.iphone-cv-body-selected-information-details {
+    box-sizing: border-box;
+
+    text-align: start;
+    color: #83829A;
+    font-size: calc(10px + 1vmin);
+
+    /* padding-bottom: calc(60px + 3vh); */
+    overflow: scroll;
+}
+
+.iphone-cv-bottombar {
+    height: calc(60px + 3vh);
+    width: 100%;
+
+    position: absolute; 
+    bottom: 0%;
+    left: 0%;
+}

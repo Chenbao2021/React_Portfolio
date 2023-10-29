@@ -1,0 +1,15 @@
+.ipad-middle-bottomBar > *:active {
+    transition: 0.9s ease all;
+
+}
+
+.ipad-middle {
+    width: 100%;
+}
+
+.ipad-middle-bottomBar {
+    width: 100%;
+    display: flex;
+    gap: 1vmin;
+}
+

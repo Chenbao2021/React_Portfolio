@@ -1,0 +1,24 @@
+.project-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-icon-button{
+    all:unset;
+    
+    height: 110px;
+    width: 110px;
+
+    border-radius: 10px;
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor:pointer;
+
+    gap: 3px;
+}

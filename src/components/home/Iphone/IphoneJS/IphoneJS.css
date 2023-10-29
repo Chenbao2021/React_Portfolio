@@ -1,0 +1,107 @@
+.iphone-js-box {
+    width: 100%;
+    height: 100%;
+    padding: 1vmin;
+    
+    background-color: #eaeaf3;
+    color: black;
+    font-size: 2vh;
+
+    transition: all 0.5s;
+    
+    animation: downToTop forwards 0.5s;
+
+    display: flex;
+    flex-direction: column;
+}
+@keyframes downToTop {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+.iphone-js-head-box {
+    width: 100%;
+    height: 15%;
+
+    text-align: center;
+
+}
+.iphone-js-head-buttons-box {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.iphone-js-work-box {
+    height: 20%;
+    /* width: 200%; */
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+}
+.iphone-js-work-list-box {
+    overflow: scroll;
+    width: auto;
+
+    flex-grow: 1;
+
+    padding: 1%;
+
+    display: flex;
+}
+
+.iphone-js-work-list-item-box {
+
+    height: 95%;
+    width: 50%;
+
+    border-radius: 10%;
+
+    border: 1px solid black;
+    margin-right: 2%;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-color: white;
+
+    cursor:pointer;
+}
+.iphone-js-work-list-item-description {
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+.iphone-js-work-list-item-head {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.iphone-js-work-list-item-icon {
+    height: 100%;
+}
+.iphone-js-work-list-item-head-tech-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iphone-js-personal-box {
+    flex-grow: 1;
+    text-align: start;
+}
+
+

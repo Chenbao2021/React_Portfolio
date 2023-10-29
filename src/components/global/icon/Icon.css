@@ -1,0 +1,14 @@
+.icon {
+    all:unset;
+
+    height: 75%;
+    aspect-ratio: 1/1;
+    
+    border-radius: 20%;
+}
+
+.zoom {
+    scale: 1.5;
+    animation: zoom;
+}
+

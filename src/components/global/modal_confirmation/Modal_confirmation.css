@@ -1,0 +1,46 @@
+.confirmation-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: calc(100px + 10vh);
+    width:  calc(200px + 10vw);
+    padding: 20px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10%;
+    
+    font-size: calc(12px + 1vmin);
+}
+
+.confirmation-head-box {
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.confirmation-buttons-box {
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirmation-buttons-box > a {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

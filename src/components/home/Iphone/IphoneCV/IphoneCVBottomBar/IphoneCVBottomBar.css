@@ -1,0 +1,44 @@
+.iphone-cv-bottomBar-box {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.iphone-cv-bottomBar-email {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone-cv-bottomBar-email:active {
+    scale: 1.5;
+}
+
+.iphone-cv-bottomBar-link-box {
+
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone-cv-bottomBar-link {
+    width: 90%;
+    height: 70%;
+
+    border-radius: 3%;
+    background-color: orange;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(20px + 1vmin);
+}
+.iphone-cv-bottomBar-link a {
+    all: unset;
+    cursor: pointer;
+}
+

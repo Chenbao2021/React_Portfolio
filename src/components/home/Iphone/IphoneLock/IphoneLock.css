@@ -1,0 +1,36 @@
+.iphone-lock-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    position: relative;
+}
+
+.iphone-fingerprint {
+    position: absolute;
+
+    bottom: 5%;
+
+    left:50%;
+    transform: translate(-50%, 0%);
+
+}
+
+.lock-messages {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-grow: 1;
+    width: 90%;
+
+    align-self: center;
+    
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+    border-radius: 10px;
+
+}
+

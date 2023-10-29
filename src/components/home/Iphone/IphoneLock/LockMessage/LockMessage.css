@@ -1,0 +1,54 @@
+.lockMessage-box {
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: grey;
+    opacity: 0.9;
+}
+
+.lockMessage-icon {
+    background-color: black;
+    width: 20%;
+    height: 90%;
+
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%;
+}
+
+.lockMessage-message-box{
+    width: 80%;
+    height: 100%;
+    padding: 2px;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: max(2vmin, 10px);
+
+}
+
+.lockMessage-message {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+
+    display: flex;
+    overflow: scroll;
+}
+.lockMessage-head {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid whitesmoke;
+}

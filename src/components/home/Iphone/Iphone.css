@@ -1,0 +1,145 @@
+
+.iphone-box {
+    grid-column: 6/8;
+    grid-row: 1/11;
+    width: 100%;
+    height: 100%;
+    /* aspect-ratio: 1/2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 100; */
+
+    position: relative;
+}
+.iphone {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    border: 2vmin solid black;
+}
+
+.iphone-head-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.iphone-head-box {
+    height: 5vmin;
+    padding: 1vmin;
+  
+    display: flex;
+    justify-content: flex-end;
+
+  
+}
+  .iphone-head-island {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    display: flex;
+    align-items: center;
+  
+    padding: calc(5px + 1vmin);
+  
+    height: calc(10px + 4vmin);
+    width: 50%;
+  
+    border-radius: 2vmin;
+    background-color: black;
+  }
+  
+  .iphone-body-time {
+    margin-top: 3vmin;
+  }
+  .iphone-body-time > p:nth-child(1) {
+    font-weight: bolder;
+    font-size: 3vmin;
+    scale: 0.8;
+  }
+  .iphone-body-time > p:nth-child(2) {
+    font-weight: bolder;
+    font-size: 8vmin;
+  }
+
+  .iphone {
+    border-radius: 5vmin;
+    display: flex;
+    
+    background-color: black;
+    color: white;
+  
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .iphone {
+        height: 100%;
+    
+        box-shadow: 10px 6px black;
+
+        border-radius: 10vmin;
+        display: flex;
+        
+        overflow: hidden;
+    }
+        
+    .iphone-head-box {
+        width: 100%;
+        height: 5vh;
+        padding: 1vmin;
+        
+    }
+    .iphone-head-island {
+        display: flex;
+        align-items: center;
+        
+        padding: 5px;
+        
+        height: calc(10px + 4vmin);
+        width: 60%;
+        
+        border-radius: 5vmin;
+        background-color: black;
+    }
+        
+    .iphone-body-time {
+        margin-top: 3vmin;
+    }
+    .iphone-body-time > p:nth-child(1) {
+        font-weight: bolder;
+        font-size: 3vh;
+        scale: 0.8;
+    }
+    .iphone-body-time > p:nth-child(2) {
+        font-weight: bolder;
+        font-size: 15vmin;
+    }
+    .iphone-head-icons {      
+
+      display: flex;
+      gap: 10px;
+
+      padding-right: 3vw;
+    }
+
+}
+
+.iphone-lock-container {
+  flex-grow: 1;
+  transition: 1s all ease-out;
+}
+
+@keyframes dropTop {
+  0% {
+    position: absolute;
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translate(1000%, 1000%);
+  }
+}

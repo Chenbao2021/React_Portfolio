@@ -1,0 +1,15 @@
+.ipad-middle-album {
+    width: 100%;
+    height: 100%;
+
+    transition: 10s all ease-in;
+    animation: changeScreen 1s;
+}
+
+@keyframes changeScreen {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}

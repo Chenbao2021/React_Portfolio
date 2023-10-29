@@ -1,0 +1,74 @@
+.ipad {
+    grid-column: 1 / 6;
+    grid-row: 3/ 11;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .ipad-middle {
+    position: relative;
+
+    flex-grow: 1;
+    height: 100%;
+    
+    transition: all 1s ease;
+
+
+    border-top: 2vmin solid black;
+    border-bottom: 2vmin solid black;
+  }
+  
+  .ipad-top, .ipad-bottom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    width: 6vmin;
+    height: 100%;
+    background-color: black;
+  }
+  .ipad-top > div {
+    border: 4px solid grey;
+    border-radius: 5px;
+    color: grey;
+  }
+  .ipad-bottom > button {
+    all:unset;
+  
+    width: 4vmin;
+    height: 4vmin;
+  
+    border: 1px solid #808080;
+    border-radius: 4vmin;
+    
+  }
+
+  .ipad-middle-bottomBar {
+    height: 10vmin;
+    width: 65%;
+  
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    bottom: 4vmin;
+
+    border-radius: 2vmin;
+    background-color: black;
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0px 20px;
+  }
+
+  .ipad {
+    border-radius: 5vmin;
+    display: flex;
+    
+    background-color: black;
+    color: white;
+  
+    overflow: hidden;
+  }
