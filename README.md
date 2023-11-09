@@ -1,8 +1,12 @@
-# React + Vite
+I started this portfolio project at the beginning of November 2023. 
+The main target of this project is to present all my past experiences and personal projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+The project is visible in this link : https://yuchenbao.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+The UI of my portfolio consists of an iPhone-like component on the right and an iPad-like component on the left. 
+
+
+In the iPhone-like component, you can access my CV and view my past projects. In the iPad-like component, I will create some fun content over time and share enjoyable moments from my life.
+
