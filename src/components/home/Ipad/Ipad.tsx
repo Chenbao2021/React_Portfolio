@@ -3,7 +3,7 @@ import IpadMain from './IpadMain/IpadMain'
 
 import './Ipad.css'
 import IpadAlbum from './IpadAlbum/IpadAlbum';
-
+import IpadDraw from './IpadDraw/IpadDraw';
 
 function Ipad() {
   const [currentRoot, setCurrentRoot] = React.useState<string>('main');
@@ -21,6 +21,7 @@ function Ipad() {
           {
             currentRoot === 'main' ? <IpadMain setCurrentRoot = {delaySet} />
             : currentRoot === 'album' ? <IpadAlbum />
+            : currentRoot === 'draw' ? <IpadDraw goToMenu = {delaySet} />
             : <IpadMain setCurrentRoot = {delaySet}/>
 
           }

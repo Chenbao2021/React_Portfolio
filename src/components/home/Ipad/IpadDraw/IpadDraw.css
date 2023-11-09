@@ -1,4 +1,20 @@
 .IpadDraw-box {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+}
+.IpadDrw-planche {
+    display: flex;
+    flex-direction: row;
+}
+
+.IpadDraw-description {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    margin-left: 2vmin;
+}
+
+.IpadDraw-canvas {
+    cursor: crosshair, auto
+
 }

@@ -15,7 +15,7 @@ function IpadMain(props: IpadMainProps) {
     <div className="ipad-middle" style={{backgroundImage:`url(${ipadBackground})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: 'rgba(221,231,255, 0.6)', backgroundBlendMode: 'darken'}}>
         <div className="ipad-middle-bottomBar">
           <Icon icon={album} title={'album'} setCurrentRoot={props.setCurrentRoot} />
-          {/* <Icon icon={album} title={'album'} setCurrentRoot={props.setCurrentRoot} /> */}
+          <Icon icon={draw} title={'draw'} setCurrentRoot={props.setCurrentRoot} />
         </div>
     </div>
   )
